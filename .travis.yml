@@ -1,4 +1,0 @@
-language: cpp
-
-script:
-valgrind --tool=memcheck g++ sample.cpp -o output -std=c++11
